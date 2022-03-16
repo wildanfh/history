@@ -259,6 +259,14 @@ h3,
   transition: 1s;
 }
 
+.card-feature-container:nth-child(2) .img-feature {
+  object-position: -150px 0;
+}
+
+.card-feature-container:nth-child(6) .img-feature {
+  object-position: 0 -40px;
+}
+
 .card-feature-container:hover .img-feature {
   transform: scale(1.05);
 }
@@ -403,7 +411,8 @@ h3,
 }
 
 .col-recent1 .recent-img-author {
-  width: calc(30px + 1vw);
+  width: 35px;
+  height: 35px;
   margin: 0 10px 10px 0;
   border-radius: 50%;
 }
@@ -435,7 +444,7 @@ h3,
 .about-me .img-about {
   width: 100%;
   height: 200px;
-  object-fit: none;
+  object-fit: cover;
   object-position: 10%;
 }
 
@@ -471,16 +480,32 @@ h3,
   margin: auto;
 }
 
+.col-recent2 .img-note0 {
+  background-image: url(../img/11.png);
+}
+
+.col-recent2 .note-p-ads {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.781);
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  bottom: 20px;
+  left: 36%;
+}
+
 .col-recent2 .img-note1 {
-  background-image: url(../img/2.png);
+  background-image: url(../img/9.png);
+  background-position: -80px 0;
 }
 
 .col-recent2 .img-note2 {
-  background-image: url(../img/3.png);
+  background-image: url(../img/8.png);
 }
 
 .col-recent2 .img-note3 {
-  background-image: url(../img/4.png);
+  background-image: url(../img/10.png);
   background-position: 40% 0;
 }
 
@@ -524,12 +549,12 @@ h3,
 
 /* footer */
 .footer-container {
-  background-color: #aaa;
+  background-color: #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 21%;
+  margin-top: 16%;
   padding: 12% 5vw 0;
 }
 
@@ -590,7 +615,7 @@ h3,
   }
 
   .footer-container {
-    margin-top: 25% !important;
+    margin-top: 20% !important;
     padding: 12% 5vw 0 !important;
   }
 }
@@ -627,7 +652,7 @@ h3,
 
   /* footer */
   .footer-container {
-    margin-top: 25% !important;
+    margin-top: 20% !important;
     padding: 15% 5vw 0 !important;
   }
 }
@@ -672,7 +697,7 @@ h3,
   }
 
   .footer-container {
-    margin-top: 50% !important;
+    margin-top: 45% !important;
     padding: 30% 5vw 0 !important;
   }
 }

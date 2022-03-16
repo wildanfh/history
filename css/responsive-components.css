@@ -1,0 +1,126 @@
+/* responsive */
+@media(max-width: 1024px) {
+  /* recent article */
+  .disable-dissapear {
+    display: none;
+  }
+
+  .footer-container {
+    margin-top: 25% !important;
+    padding: 12% 5vw 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* navbar */
+  .navbar {
+    padding: 0 !important;
+  }
+
+  /* hero */
+  .hero-container {
+    grid-template-columns: none !important;
+  }
+
+  .col-hero1 {
+    order: 2;
+  }
+
+  .col-hero2 {
+    order: 1;
+  }
+
+  /* recent */
+
+  .recent-container {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .col-recent2 {
+    display: none !important;
+  }
+
+  /* footer */
+  .footer-container {
+    margin-top: 25% !important;
+    padding: 15% 5vw 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* subscribe */
+  .subscribe-container {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  /* feature articles */
+  .col-feature2 {
+    height: 400px;
+  }
+
+  .col-feature2 .card-feature-container {
+    height: 300px !important;
+    width: 210px !important;
+    margin: 50px 10px !important;
+  }
+
+  .col-feature2 .img-feature {
+    height: 55% !important;
+    object-position: 10% !important;
+  }
+
+  /* recent article */
+  .col-recent1 .card-recent-container {
+    width: 100% !important;
+  }
+
+  /* galeri */
+  .img-galeri {
+    width: 49% !important;
+    padding: 10px 5px !important;
+  }
+
+  .galeri-hilang {
+    display: none;
+  }
+
+  .footer-container {
+    margin-top: 50% !important;
+    padding: 30% 5vw 0 !important;
+  }
+}
+
+/* components */
+.lingkaran {
+  height: clamp(100px, 20vw, 300px);
+  width: clamp(100px, 20vw, 300px);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+}
+
+.lingk-a {
+  background-color: #eee;
+  top: -10%;
+  left: -10%;
+}
+
+.lingk-b {
+  background-color: #eee;
+  bottom: -10%;
+  right: -10%;
+}
+
+.circle-container {
+  margin-bottom: 10px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #aaa;
+  display: inline-block;
+}
